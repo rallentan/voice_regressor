@@ -1,0 +1,10 @@
+Training Data:
+- Looking for 10 different voice actors from diverse backgrounds
+- Each voice actor records long noises of each vowel sound at each of the 4 extremes of size and weight for 25-50 seconds
+- Then each voice actor reads a script at each of the 4 extremes
+- The recordings are divided into samples of 0.5 seconds each with overlap of 0.25 seconds. For example, the first sample starts at 0 seconds and lasts for 0.5 seconds. The second sample starts at 0.25 seconds and also lasts for 0.5 seconds.
+- The samples are balanced with 50/50 between long-noises and natural speech
+- Long-noises are balanced 25/25/25/25 between each of the four extremes
+- Each division of long-noise is balanced 20/20/20/20/20 between each vowel sound
+- Once a model has been found that converges, evaluate each sample for the models accuracy in predicting it. There should be many speech samples with high-loss due to pauses in speech. Mark them.
+- Retrain the model without the samples that lack clear audio.
