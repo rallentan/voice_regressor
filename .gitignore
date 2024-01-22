@@ -1,0 +1,10 @@
+/.idea
+/data_preparation/__pycache__
+/ml_model/__pycache__
+/ml_model/tests/*.h5
+/*.pickle
+/*.cache
+/*.keras
+/trained_voice_model.json
+*.keras
+/*.wav
